@@ -19,9 +19,16 @@
 
 ## Estructure
 
+```mermaid
+graph TD;
+    Utils-->Services;
+    Services-->Controller;
+    Controller-->Server;
+```
+
 ## API
 
-| id | endpoint | response |
+| Id | Endpoint | Response |
 | :-------------: |:-------------:| :-----:|
 | 1 | `/v1/students` | All students |
 | 2 | `/v1/students/emails` | Students email with prop `haveCertification: true` |
