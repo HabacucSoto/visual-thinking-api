@@ -7,7 +7,16 @@ describe( "Unit test for class StudentService", () => {
     test( "1) Test for method allStudents", () => {
         
         const result = StudentService.allStudents( students );
-        console.log(result)
+        
+        expect( result ).not.toBeUndefined();
+
+    } );
+
+    test( "2) Test for method filterByCertificate", () => {
+
+        const result = StudentService.filterByCertificate( students );
+        
+        expect( result[0].haveCertification ).toBe( true );
 
     } );
 
