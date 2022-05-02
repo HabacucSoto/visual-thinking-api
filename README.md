@@ -23,5 +23,5 @@
 
 ## Time
 
-![image]('./assets/time.png')
+<img src="./assets/time.png"></img>
 
