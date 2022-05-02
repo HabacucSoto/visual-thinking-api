@@ -13,7 +13,15 @@
     </li>
     <li>
         <h2>Nodemon</h2>
-        <p>This dep monitors the file system and automatically restarts the process</p>
+        <p>This dep monitors the file system and automatically restarts the process. I used it to start my server</p>
     </li>
 </ul>
+
+## Estructure
+
+## API
+
+## Time
+
+![image]('/assets/time.png')
 
