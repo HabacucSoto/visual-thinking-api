@@ -15,8 +15,16 @@ describe( "Unit test for class StudentService", () => {
     test( "2) Test for method filterByCertificate", () => {
 
         const result = StudentService.filterByCertificate( students );
-        
-        expect( result[0].haveCertification ).toBe( true );
+
+        expect( result ).not.toBeUndefined();
+
+    } );
+
+    test( "3) Test for method greaterThanFiveHundred", () => {
+
+        const result = StudentService.greaterThanFiveHundred( students );
+
+        expect( result[0].credits ).toBeGreaterThan( 500 );
 
     } );
 
