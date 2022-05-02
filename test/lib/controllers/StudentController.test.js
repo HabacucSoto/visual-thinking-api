@@ -10,4 +10,12 @@ describe( "Unit test for class StudentController", () => {
 
     } );
 
+    test( "2) Test for method getEmailByCertificate", () => {
+
+        const result = StudentController.getEmailByCertificate();
+
+        expect( Array.isArray( result ) ).toBe( true );
+
+    } );
+
 } );
