@@ -21,9 +21,11 @@
 
 ```mermaid
 graph TD;
-    JSON-->Utils-->Services;
-    Services-->Controller;
-    Controller-->Server;
+    JSON-->Reader;
+    Reader-->StudentService;
+    StudentService-->StudentController;
+    StudentController-->Server;
+    Server-->API;
 ```
 
 ## API
