@@ -22,7 +22,7 @@
 ## API
 
 | id | endpoint | response |
-| ------------- |:-------------:| -----:|
+| :-------------: |:-------------:| :-----:|
 | 1 | `/v1/students` | All students |
 | 2 | `/v1/students/emails` | Students email with prop `haveCertification: true` |
 | 3 | `/v1/students/credits` | Students with credits greater than 500 |
