@@ -18,4 +18,12 @@ describe( "Unit test for class StudentController", () => {
 
     } );
 
+    test( "3) Test for method getStudentsByCredits", () => {
+
+        const result = StudentController.getStudentsByCredits();
+
+        expect( result[0].credits ).toBeGreaterThan( 500 );
+
+    } );
+
 } );
